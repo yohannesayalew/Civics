@@ -1,0 +1,131 @@
+@media (min-width: 500px) {
+    @font-face {
+        src: url(font/Cambria, Cochin, Georgia, Times, 'Times New Roman', serif);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: medium;
+        font-style: italic;
+      }
+      
+      @media (min-width: 500px) {
+        .container-1 {
+          display: flex;
+        }
+      }
+      .container-1 div {
+        border: 1px #ccc solid;
+        padding: 5%;
+      }
+      .box-1 {
+        flex: 1;
+        order: 1;
+      }
+      .box-2 {
+        flex: 1;
+        order: 2;
+      }
+      
+      .flex01 {
+        background-color: gainsboro;
+      }
+      
+      body {
+        width: 75%;
+        padding: auto;
+        padding-top: 2%;
+        background-color: rgb(179, 194, 124);
+      }
+      p {
+        color: black;
+        text-align: justify;
+      }
+      
+    #mainheader {
+      background-image: url(images/10.pnp);
+      width: fit-content;
+      background-size: cover;
+      text-align: center;
+      padding: 10%;
+      background-repeat: no-repeat;
+      width: auto;
+    }
+    #HOME {
+      font-family: addis;
+      color: hsl(0, 92%, 51%);
+      font-size: 50pt;
+      width: auto;
+      text-align: center;
+    }
+  }
+  
+  #nav {
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30pt;
+    color: white;
+  }
+  #pages ul {
+    list-style-type: none;
+    word-spacing: 10pt;
+  }
+  #pages li {
+    display: inline;
+  }
+  
+  #button {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.274);
+    padding: 1%;
+  }
+  #button:hover {
+    color: #51ff00;
+    background-color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: white;
+    padding: 1%;
+  }
+#part1{
+  background-color: coral;
+  color: black;
+  font-size: medium;
+}
+#part2{
+  background-color: coral;
+  color: black;
+  font-size: medium;
+
+}
+#h2{
+  background-color: burlywood;
+  color: darkblue;
+  font-variant: small-caps;
+
+}
+#part3{
+  background-color: darkseagreen;
+  color: darkred;
+}
+#h3{
+  background-color: darkslategrey;
+  color: dodgerblue;
+  font-variant: small-caps;
+}
+#h4{
+  color: hsl(0, 92%, 51%);
+}
+#part4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: blue;
+}
